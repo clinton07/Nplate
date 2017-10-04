@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="iRep_Automation_Suite" duration-ms="208222" started-at="2017-09-22T10:23:12Z" finished-at="2017-09-22T10:26:40Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="208222" started-at="2017-09-22T10:23:12Z" finished-at="2017-09-22T10:26:40Z">
+      <class name="Regression.US.FullFlow">
+        <test-method status="PASS" signature="suiteSetup(org.testng.ITestContext)[pri:0, instance:Regression.US.FullFlow@64bf3bbf]" name="suiteSetup" is-config="true" duration-ms="2194" started-at="2017-09-22T15:53:10Z" finished-at="2017-09-22T15:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ecf9049]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="testMethodSetup(java.lang.reflect.Method)[pri:0, instance:Regression.US.FullFlow@64bf3bbf]" name="testMethodSetup" is-config="true" duration-ms="17002" started-at="2017-09-22T15:53:15Z" finished-at="2017-09-22T15:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Regression.US.FullFlow.nPlate(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodSetup -->
+        <test-method status="PASS" signature="nPlate(java.util.Hashtable, java.lang.reflect.Method)[pri:1, instance:Regression.US.FullFlow@64bf3bbf]" name="nPlate" duration-ms="162728" started-at="2017-09-22T15:53:32Z" data-provider="Nplate" finished-at="2017-09-22T15:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=123456, HCO_Primary_Country=, HCP_CustomerType=, HCO_Type=, HCO_Speciality=, HCP_Notes=, HCO_Country=, HCP_Speciality=, UserName=mohamedkahaf@gmail.com, HCO_State=, PrimaryParent=, HCP_FirstName=, HCP_Salutation=, RunMode=Y, HCO_Add2=, HCO_City=, HCO_Add1=, HCP_LastName=, HCP_Primary_Country=, HCO_Notes=, HCO_Zip=, Plateletcount=700.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Regression.US.FullFlow.nPlate(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nPlate -->
+        <test-method status="PASS" signature="finalize()[pri:0, instance:Regression.US.FullFlow@64bf3bbf]" name="finalize" is-config="true" duration-ms="3" started-at="2017-09-22T15:56:14Z" finished-at="2017-09-22T15:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize -->
+        <test-method status="PASS" signature="testMethodTearDown(org.testng.ITestResult)[pri:0, instance:Regression.US.FullFlow@64bf3bbf]" name="testMethodTearDown" is-config="true" duration-ms="25654" started-at="2017-09-22T15:56:14Z" finished-at="2017-09-22T15:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nPlate status=SUCCESS method=FullFlow.nPlate(java.util.Hashtable, java.lang.reflect.Method)[pri:1, instance:Regression.US.FullFlow@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTearDown -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:Regression.US.FullFlow@64bf3bbf]" name="suiteTearDown" is-config="true" duration-ms="1059" started-at="2017-09-22T15:56:40Z" finished-at="2017-09-22T15:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- Regression.US.FullFlow -->
+      <class name="com.framework.utility.FinalTest">
+        <test-method status="PASS" signature="FinalTestReport()[pri:0, instance:com.framework.utility.FinalTest@55d56113]" name="FinalTestReport" duration-ms="48" started-at="2017-09-22T15:56:40Z" finished-at="2017-09-22T15:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalTestReport -->
+      </class> <!-- com.framework.utility.FinalTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- iRep_Automation_Suite -->
+</testng-results>
